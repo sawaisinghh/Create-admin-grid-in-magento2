@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
-    <menu>
-        <add id="AdminTest_TestModule::practice" title="Menu" module="AdminTest_TestModule" resource="AdminTest_TestModule::practice"
-		 translate="title" sortOrder="10" />
-        <add id="AdminTest_TestModule::manage" title="Manage Items" module="AdminTest_TestModule" parent="AdminTest_TestModule::practice" resource="AdminTest_TestModule::manage"
-		 translate="title" sortOrder="10" action="practice/index/index" />
-    </menu>
-</config>

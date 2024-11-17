@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<routes>
-	<route url="/V1/practice" method="GET">
-		<service class="AdminTest\TestModule\Api\ItemRepositoryInterface" method="getList" />
-		<resources>
-			<resource ref="anonymous" />
-		</resources>
-	</route>
-</routes>
